@@ -118,4 +118,8 @@ $(document).ready(function() {
 	$.each(['range', 'blue', 'green', 'red', 'yellow', 'black', 'white'], function(unused, value) {
 		$('#' + value).change(calculate);
 	});
+	$('#clear').click(function() {
+		document.getElementById("diceform").reset();
+		calculate();
+	});
 });

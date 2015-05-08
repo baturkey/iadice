@@ -5,6 +5,6 @@ body {
 	background: black;
 	color: #CCC;
 }
-input {
+select, button {
 	color: black;
 }
