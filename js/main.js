@@ -115,7 +115,7 @@ $(document).ready(function() {
 	appendToSelect('yellow',  2);
 	appendToSelect('black',   2);
 	appendToSelect('white',   1);
-	$.each(['range', 'blue', 'green', 'red', 'yellow', 'black', 'white'], function(unused, value) {					
+	$.each(['range', 'blue', 'green', 'red', 'yellow', 'black', 'white'], function(unused, value) {
 		$('#' + value).change(calculate);
 	});
 });
